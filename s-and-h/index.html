@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Homepage | S&H</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <!--<link rel="shortcut  icon" type="image/x-icon" href="images/favicon.ico" media="screen"  /> -->
+    <script src="https://use.fontawesome.com/9f53f39d7e.js"></script>
+    <style type="text/css">
+        body div p a h2 {
+            margin:0px;
+            padding:0px;
+        }
+        body {
+            background-image: url(images/bg.jpg);
+            background-size: cover;
+        }
+        /*logo盒子*/
+        .logo_box {
+            height:230px;
+            margin-left:150px;
+            margin-top:60px;
+        }
+        .logo_box .logo {
+            float:left;
+        }
+        .logo_box .logo img{
+            width:230px;
+        }
+        .logo_box .more_info {
+            float:right;
+            margin-right:300px;
+            margin-top:100px;
+        }
+        .logo_box .more_info a{
+            text-decoration: none; 
+            line-height:34px;
+            font-size:20px;
+            font-family:Georgia, sans-serif;
+            color:#FF6666;
+        }
+        .logo_box .more_info a:hover {
+            transform: translate(-50%, -50%);
+            cursor:pointer;
+        }
+        .logo_box .more_info a:current {
+            transform: translate(-50%, -50%);
+            cursor:pointer;
+        }
+        /*text盒子*/
+        .text_box {
+            height:400px;
+            margin-top:110px;
+        }
+        .text_box #main_text h2 {
+            text-align: center;
+            font-size:80px;
+            color:#99CC66;
+            font-family:Georgia, sans-serif;
+        }
+        .text_box #main_text strong {
+            color:#FF6666;
+            font-size:96px;
+        }
+        .text_box .sub_text {
+            margin-top:100px;
+        }
+        .text_box .sub_text p {
+            color:#99CC66;
+            font-family:Georgia, sans-serif;
+            font-size:20px;
+            text-align: center;
+        }
+        .text_box .sub_text p strong {
+            font-weight:bold;
+            /*color: #ff6666;*/
+        }
+    </style>
+    <script type="text/javascript">
+        function getDays() {
+            var div = document.getElementById("main_text");
+            var nowtime = new Date(); //获取当前时间
+            var pasttime = new Date("2014/12/28"); //之前的时间
+            var timeRes = nowtime.getTime() - pasttime.getTime(); //获取时间差
+
+            var day=parseInt(timeRes / 1000 / 60 / 60 /24);
+            
+            day = day < 10 ? "0" + day : day;  //day小于10吗？如果小于，就补0；如果不小于，就是day本身
+            //console.log(day);
+
+            div.innerHTML = "<h2>Hey! We have been together<br/>for <strong>" + day + "</strong> days !</h2>";
+        }
+        window.onload = getDays;
+    </script>
+</head>
+<body>
+    <div class="logo_box">
+        <div class="logo">
+            <a href=""><img src="images/logo.png" /></a>
+        </div>
+        <div class="more_info">
+            <a href="">More info about us <i class="fa fa-globe" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class="text_box">
+        <div id="main_text"></div>
+        <div class="sub_text">
+            <p>This a secret base for <strong>Rebecca Shi</strong> & <strong>Ivy Wong(Huang)</strong>.<br/>We try to use this website to record interesting things between us two.</p>
+        </div>
+    </div>
+</body>
+</html>
