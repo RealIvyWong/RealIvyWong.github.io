@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | 黄颖菁</title>
+    <link>https://realivywong.github.io/zh/tags/</link>
+      <atom:link href="https://realivywong.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© Ivy 2020</copyright>
+    <image>
+      <url>https://realivywong.github.io/images/icon_hu5cb6e9286ab2d7283695e2732b96b9eb_9502_512x512_fill_lanczos_center_2.png</url>
+      <title>Tags</title>
+      <link>https://realivywong.github.io/zh/tags/</link>
+    </image>
+    
+  </channel>
+</rss>
