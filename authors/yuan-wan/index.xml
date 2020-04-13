@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuan Wan | Yingjing Huang</title>
+    <link>https://realivywong.github.io/authors/yuan-wan/</link>
+      <atom:link href="https://realivywong.github.io/authors/yuan-wan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yuan Wan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ivy 2020</copyright><lastBuildDate>Sat, 25 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://realivywong.github.io/images/icon_hu5cb6e9286ab2d7283695e2732b96b9eb_9502_512x512_fill_lanczos_center_2.png</url>
+      <title>Yuan Wan</title>
+      <link>https://realivywong.github.io/authors/yuan-wan/</link>
+    </image>
+    
+    <item>
+      <title>Optimization method of calibration dataset for VIS-NIR spectral inversion model of soil organic matter content</title>
+      <link>https://realivywong.github.io/publication/tcsae-2017-33-6/</link>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://realivywong.github.io/publication/tcsae-2017-33-6/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

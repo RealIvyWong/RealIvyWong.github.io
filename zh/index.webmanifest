@@ -2,8 +2,8 @@
   "name": "黄颖菁",
   "short_name": "黄颖菁",
   "lang": "zh-Hans",
-  "theme_color": "rgb(251, 191, 183)",
-  "background_color": "rgb(251, 191, 183)",
+  "theme_color": "hsl(339, 90%, 68%)",
+  "background_color": "hsl(339, 90%, 68%)",
   "icons": [{
     "src": "/images/icon_hu5cb6e9286ab2d7283695e2732b96b9eb_9502_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",
