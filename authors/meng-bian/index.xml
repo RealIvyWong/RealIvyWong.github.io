@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meng Bian | Yingjing Huang</title>
+    <link>https://realivywong.github.io/authors/meng-bian/</link>
+      <atom:link href="https://realivywong.github.io/authors/meng-bian/index.xml" rel="self" type="application/rss+xml" />
+    <description>Meng Bian</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Ivy 2020</copyright><lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://realivywong.github.io/images/icon_hu5cb6e9286ab2d7283695e2732b96b9eb_9502_512x512_fill_lanczos_center_2.png</url>
+      <title>Meng Bian</title>
+      <link>https://realivywong.github.io/authors/meng-bian/</link>
+    </image>
+    
+    <item>
+      <title>GIS-Based Emotional Computing: A Review of Quantitative Approaches to Measure the Emotion Layer of Human–Environment Relationships</title>
+      <link>https://realivywong.github.io/publication/ijgi-2020-09-15/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://realivywong.github.io/publication/ijgi-2020-09-15/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
